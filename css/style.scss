@@ -6,6 +6,7 @@ $fourthColor:#dfe6e9;
 body {
     font-family: 'Tajawal', sans-serif;
     direction: rtl;
+    transition: all .5s;
 }
 
 .upperBar {
@@ -18,10 +19,137 @@ body {
         letter-spacing: 2px;
     }
 }
-.navbar
-{
-background-color:$fourthColor;
+
+.navbar {
+    background-color: $fourthColor;
     padding: 20px;
     font-size: 18px;
-   
+
+}
+
+.slider {
+    background: $firstColor;
+
+    .carousel-item {
+        background-size: cover;
+    }
+
+    .carousel-one {
+        background-image: url('../images/chair-clean-clinic-dental-care-287237.jpg');
+    }
+
+    .carousel-two {
+        background-image: url('../images/chairs-arranged-on-table-305564.jpg');
+    }
+
+    .carousel-three {
+        background-image: url('../images/male-dentist-working-on-woman-s-teeth-3779700.jpg');
+    }
+
+    .carousel-four {
+        background-image: url('../images/male-dentist-working-on-woman-s-teeth-3779703.jpg');
+    }
+
+    .carousel-five {
+        background-image: url('../images/male-dentist-working-on-woman-s-teeth-3779711.jpg');
+    }
+}
+
+.features {
+    background-color: $secondColor;
+    color: $fourthColor;
+    padding: 10px;
+
+    h1 {
+        text-shadow: 2px 2px 10px $fourthColor;
+
+    }
+
+    .fa-graduation-cap,
+    .fa-address-card,
+    .fa-check,
+    .fa-info {
+        width: 100px;
+        height: 100px;
+        line-height: 50px;
+        background: $fourthColor;
+        color: $firstColor;
+        border: 1px solid $firstColor;
+        padding: 15px;
+        transition: all 0.2s;
+    }
+
+    .fa-graduation-cap:hover {
+        color: $fourthColor;
+        background: $firstColor;
+    }
+
+    .fa-address-card:hover {
+        color: $fourthColor;
+        background: $firstColor;
+    }
+
+    .fa-check:hover {
+        color: $fourthColor;
+        background: $firstColor;
+    }
+
+    .fa-info:hover {
+        color: $fourthColor;
+        background: $firstColor;
+    }
+
+}
+
+.reservation {
+    background-color: $fourthColor;
+    color: $firstColor;
+    text-shadow: 2px 2px 5px $firstColor;
+
+    label {
+        float: right;
+    }
+
+    .form-control:focus {
+        box-shadow: 5px 5px 10px $secondColor;
+        // border: 1px solid $fourthColor
+    }
+
+}
+
+.schedule {
+    background-color: $fourthColor;
+    padding: 10px;
+    box-shadow: 5px 5px 10px $secondColor;
+
+    h2 {
+        text-shadow: 2px 2px 5px $firstColor;
+
+    }
+}
+footer{
+    padding-top: 20px;
+    max-height: 500px;
+    background-color: $firstColor;
+    color: $fourthColor;
+    a{
+        padding: 10px;
+img{
+    height: 50px;
+    width: 50px;
+}
+    }
+}
+// scroll bar
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background-color: $secondColor;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: $firstColor;
 }

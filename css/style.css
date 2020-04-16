@@ -1,6 +1,7 @@
 body {
   font-family: 'Tajawal', sans-serif;
   direction: rtl;
+  transition: all .5s;
 }
 
 .upperBar {
@@ -18,4 +19,129 @@ body {
   background-color: #dfe6e9;
   padding: 20px;
   font-size: 18px;
+}
+
+.slider {
+  background: #2d3436;
+}
+
+.slider .carousel-item {
+  background-size: cover;
+}
+
+.slider .carousel-one {
+  background-image: url("../images/chair-clean-clinic-dental-care-287237.jpg");
+}
+
+.slider .carousel-two {
+  background-image: url("../images/chairs-arranged-on-table-305564.jpg");
+}
+
+.slider .carousel-three {
+  background-image: url("../images/male-dentist-working-on-woman-s-teeth-3779700.jpg");
+}
+
+.slider .carousel-four {
+  background-image: url("../images/male-dentist-working-on-woman-s-teeth-3779703.jpg");
+}
+
+.slider .carousel-five {
+  background-image: url("../images/male-dentist-working-on-woman-s-teeth-3779711.jpg");
+}
+
+.features {
+  background-color: #636e72;
+  color: #dfe6e9;
+  padding: 10px;
+}
+
+.features h1 {
+  text-shadow: 2px 2px 10px #dfe6e9;
+}
+
+.features .fa-graduation-cap,
+.features .fa-address-card,
+.features .fa-check,
+.features .fa-info {
+  width: 100px;
+  height: 100px;
+  line-height: 50px;
+  background: #dfe6e9;
+  color: #2d3436;
+  border: 1px solid #2d3436;
+  padding: 15px;
+  transition: all 0.2s;
+}
+
+.features .fa-graduation-cap:hover {
+  color: #dfe6e9;
+  background: #2d3436;
+}
+
+.features .fa-address-card:hover {
+  color: #dfe6e9;
+  background: #2d3436;
+}
+
+.features .fa-check:hover {
+  color: #dfe6e9;
+  background: #2d3436;
+}
+
+.features .fa-info:hover {
+  color: #dfe6e9;
+  background: #2d3436;
+}
+
+.reservation {
+  background-color: #dfe6e9;
+  color: #2d3436;
+  text-shadow: 2px 2px 5px #2d3436;
+}
+
+.reservation label {
+  float: right;
+}
+
+.reservation .form-control:focus {
+  box-shadow: 5px 5px 10px #636e72;
+}
+
+.schedule {
+  background-color: #dfe6e9;
+  padding: 10px;
+  box-shadow: 5px 5px 10px #636e72;
+}
+
+.schedule h2 {
+  text-shadow: 2px 2px 5px #2d3436;
+}
+
+footer {
+  padding-top: 20px;
+  max-height: 500px;
+  background-color: #2d3436;
+  color: #dfe6e9;
+}
+
+footer a {
+  padding: 10px;
+}
+
+footer a img {
+  height: 50px;
+  width: 50px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background-color: #636e72;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2d3436;
 }
