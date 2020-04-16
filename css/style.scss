@@ -1,0 +1,27 @@
+$firstColor:#2d3436;
+$secondColor:#636e72;
+$thiredColor:#b2bec3;
+$fourthColor:#dfe6e9;
+
+body {
+    font-family: 'Tajawal', sans-serif;
+    direction: rtl;
+}
+
+.upperBar {
+    background-color: $firstColor;
+    color: $thiredColor;
+    padding: 10px;
+
+    .doctor {
+        text-shadow: 2px 2px 5px $thiredColor;
+        letter-spacing: 2px;
+    }
+}
+.navbar
+{
+background-color:$fourthColor;
+    padding: 20px;
+    font-size: 18px;
+   
+}
